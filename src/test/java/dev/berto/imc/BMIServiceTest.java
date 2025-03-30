@@ -8,8 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-
-
 class BMIServiceTest {
 
     @Test
