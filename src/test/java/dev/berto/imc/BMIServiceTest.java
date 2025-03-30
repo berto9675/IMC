@@ -6,15 +6,12 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 
 class BMIServiceTest {
 
-    @Test
-    void testApp() {
     @Test
     @DisplayName("Should calculate BMI")
     void testCalculatorBMI() {
